@@ -23,7 +23,6 @@
 		"@sveltejs/adapter-node": "^5.2.9",
 		"@sveltejs/adapter-static": "^3.0.6",
 		"@types/express": "4",
-		"canvas-test": "file:",
 		"express": "^4.21.1"
 	}
 }
