@@ -15,7 +15,7 @@
             const image = new Image();
             image.onload = () => {
                 ctx.drawImage(image, 0, 0, image.naturalWidth, image.naturalHeight, 0, 0, size, size);
-                imgPath = canvas.toDataURL("image/png");
+                imgPath = canvas.toDataURL("image/webp");
             }
             image.src = fPath
         }
@@ -46,7 +46,7 @@
                 ctx.clip();
                 ctx.drawImage(image, 0, 0, image.naturalWidth, image.naturalHeight, 0, 0, iconCanvasSize, iconCanvasSize);
                 ctx.restore();
-                drawIcon(iconCanvas.toDataURL("image/png"), rankingPath);
+                drawIcon(iconCanvas.toDataURL("image/webp"), rankingPath);
             }
         }
     }
